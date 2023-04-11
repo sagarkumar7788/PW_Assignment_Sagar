@@ -1,0 +1,38 @@
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git init
+Reinitialized existing Git repository in /config/workspace/review-scrapper-aws-main/.git/
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git add .
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'abc@2f17886f8d27.(none)')
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git config --global user.email "sagarkumar7788@gmai.com"
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git config --global user.name "sagarkumar7788"
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git commit -m "first commit"
+[main 4a7d580] first commit
+ 2 files changed, 56 insertions(+)
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git branch -M main
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git remote add origin https://github.com/sagarkumar7788/review_scrap.git
+fatal: remote origin already exists.
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git remote remove origin
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git remote add origin https://github.com/sagarkumar7788/review_scrap.git
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ git push -u origin main
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 64 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (17/17), 323.96 KiB | 4.10 MiB/s, done.
+Total 17 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/sagarkumar7788/review_scrap.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+abc@2f17886f8d27:~/workspace/review-scrapper-aws-main$ 
